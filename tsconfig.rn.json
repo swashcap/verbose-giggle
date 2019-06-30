@@ -4,9 +4,9 @@
     "jsx": "react-native",
     "lib": ["es2016"],
     "module": "commonjs",
+    "noEmit": true,
     "sourceMap": true,
-    "strict": true,
-    "target": "es5"
+    "strict": true
   },
   "exclude": ["src/**/*.web.ts", "src/**/*.web.tsx"]
 }

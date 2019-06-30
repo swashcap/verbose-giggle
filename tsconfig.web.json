@@ -5,9 +5,9 @@
     "lib": ["es2016"],
     "jsx": "react",
     "module": "commonjs",
+    "noEmit": true,
     "sourceMap": true,
-    "strict": true,
-    "target": "es5"
+    "strict": true
   },
   "exclude": ["**/*.rn.ts", "**/*.rn.tsx", "types-rn"]
 }
