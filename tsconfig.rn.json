@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-native",
+    "lib": ["es2016"],
+    "module": "commonjs",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": ["src/**/*.web.ts", "src/**/*.web.tsx"]
+}
