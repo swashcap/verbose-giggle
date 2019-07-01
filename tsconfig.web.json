@@ -2,12 +2,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "esModuleInterop": true,
-    "lib": ["es2016"],
     "jsx": "react",
+    "lib": ["dom", "es2015"],
     "module": "commonjs",
-    "noEmit": true,
     "sourceMap": true,
-    "strict": true
+    "strict": true,
+    "target": "es5"
   },
-  "exclude": ["**/*.rn.ts", "**/*.rn.tsx", "types-rn"]
+  "exclude": ["**/*.rn.ts", "**/*.rn.tsx", "types-react-native"]
 }

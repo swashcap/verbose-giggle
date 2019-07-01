@@ -12,7 +12,6 @@
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
     "@types/react": "^16.8.22",
-    "@types/react-native": "^0.57.64",
     "husky": "^2.7.0",
     "lint-staged": "^8.2.1",
     "metro-react-native-babel-preset": "^0.54.1",
@@ -30,7 +29,7 @@
     "build:rn": "tsc --build tsconfig.rn.json",
     "build:web": "tsc --build tsconfig.web.json",
     "clean": "scripts/clean.sh",
-    "format": "prettier --write '*.{js,json}' 'src/**/*.{ts,tsx}'"
+    "format": "prettier --write '*.{js,json}' '{src,types}/**/*.{ts,tsx}'"
   },
   "version": "0.0.0"
 }
