@@ -4,6 +4,9 @@ const path = require('path')
 const isEnvProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
+  devServer: {
+    port: 3000,
+  },
   devtool: 'source-map',
   entry: './src/index.web.tsx',
   mode: isEnvProd ? 'production' : 'development',

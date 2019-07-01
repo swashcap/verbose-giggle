@@ -24,7 +24,8 @@
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.2",
     "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   },
   "license": "Apache-2.0",
   "main": "index.js",
@@ -35,6 +36,7 @@
     "build:web": "NODE_ENV=production webpack",
     "clean": "scripts/clean.sh",
     "format": "prettier --write '*.{js,json}' '{src,types}/**/*.{ts,tsx}'",
+    "start": "webpack-dev-server",
     "tsc:rn": "tsc --build tsconfig.rn.json",
     "tsc:web": "tsc --build tsconfig.web.json"
   },
