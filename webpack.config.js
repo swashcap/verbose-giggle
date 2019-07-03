@@ -1,6 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
+const pkg = require('./package.json')
+
 const isEnvProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
@@ -35,7 +37,12 @@ module.exports = {
     filename: isEnvProd ? '[name].[hash].bundle.js' : '[name].bundle.js',
     path: path.join(__dirname, 'dist'),
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.ejs',
+      title: pkg.name,
+    }),
+  ],
   resolve: {
     extensions: ['.ts', '.tsx', '.web.ts', '.web.tsx', '.js', '.json'],
   },
