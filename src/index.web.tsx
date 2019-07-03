@@ -8,7 +8,7 @@ class App extends React.PureComponent {
 }
 
 const render = () => {
-  const el = document.getElementById('#app')
+  const el = document.getElementById('app')
 
   if (el) {
     ReactDOM.render(<App />, el)
