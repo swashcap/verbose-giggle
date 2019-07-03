@@ -9,5 +9,5 @@
     "strict": true,
     "target": "es5"
   },
-  "exclude": ["**/*.rn.ts", "**/*.rn.tsx", "types-react-native"]
+  "exclude": ["**/*.rn.ts", "**/*.rn.tsx", "types/react-native"]
 }
