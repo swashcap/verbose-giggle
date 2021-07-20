@@ -4,7 +4,7 @@
     "clsx": "^1.0.4",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
-    "react-native": "0.59.9"
+    "react-native": "0.62.3"
   },
   "description": "Experimenting with React + React Native + TypeScript",
   "devDependencies": {
